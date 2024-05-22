@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Study: Image Identification Comparison</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        ol {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 20px 0;
+        }
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .image-container img {
+            max-width: 300px;
+            height: auto;
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+        }
+        .results {
+            text-align: center;
+            margin-top: 10px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Image Identification Case Study</h1>
+
+    <h2>Testing Objects</h2>
+    <ol>
+        <li>
+            <div class="image-container">
+                <img src="image1.jpg" alt="Object 1">
+                <div class="results">
+                    <p>Google Lens Result: <span id="google-result-1"></span></p>
+                    <p>Real Time Identification Result: <span id="realtime-result-1"></span></p>
+                    <p>Mini Conclusion: <span id="mini-conclusion-1"></span></p>
+                </div>
+            </div>
+        </li>
+        <!-- Repeat for other images -->
+        <li>
+            <div class="image-container">
+                <img src="image2.jpg" alt="Object 2">
+                <div class="results">
+                    <p>Google Lens Result: <span id="google-result-2"></span></p>
+                    <p>Real Time Identification Result: <span id="realtime-result-2"></span></p>
+                    <p>Mini Conclusion: <span id="mini-conclusion-2"></span></p>
+                </div>
+            </div>
+        </li>
+        <!-- Add more images as needed -->
+    </ol>
+
+    <footer>
+        <p>By Kavin</p>
+    </footer>
+
+    
+</body>
+</html>
